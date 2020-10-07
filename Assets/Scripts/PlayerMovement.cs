@@ -30,7 +30,6 @@ public class PlayerMovement : MonoBehaviour
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
 
-
         if (Input.GetKey("f"))
         {
             StartWaterSpray();
